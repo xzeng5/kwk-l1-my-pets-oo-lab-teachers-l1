@@ -19,3 +19,4 @@ end
 
 cat1 = Cat.new("Zech")
 puts cat1.name
+puts cat1.mood
