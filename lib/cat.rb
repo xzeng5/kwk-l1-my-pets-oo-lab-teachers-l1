@@ -16,4 +16,4 @@ class Cat
 
 end
 
-Cat.new("Zech")
+cat1 = Cat.new("Zech")
