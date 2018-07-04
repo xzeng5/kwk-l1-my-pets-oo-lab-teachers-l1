@@ -16,5 +16,4 @@ class Cat
 
 end
 
-
 puts Cat.mood("Nervous")
