@@ -7,7 +7,7 @@ class Cat
   end
 
   def mood= (mood)
-    @mood = mood 
+    @mood = mood
   end
 
   def mood
@@ -16,5 +16,5 @@ class Cat
 
 end
 
-Cat.mood("Nervous")
-puts Cat.mood 
+
+puts Cat.mood("Nervous")
