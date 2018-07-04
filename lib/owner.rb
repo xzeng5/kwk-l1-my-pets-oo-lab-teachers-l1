@@ -2,8 +2,8 @@ class Owner
   # code goes here
   attr_reader :name, :mood
   
-  def initialize (name, mood = "nervous")
-    @name = name
+  def initialize (species, mood = "nervous")
+    @name = species
     @mood = mood
   end
 
