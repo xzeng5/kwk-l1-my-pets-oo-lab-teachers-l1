@@ -16,4 +16,4 @@ class Cat
 
 end
 
-puts Cat.mood("Nervous")
+puts Cat.mood = "Nervous"
