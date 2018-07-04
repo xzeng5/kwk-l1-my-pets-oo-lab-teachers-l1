@@ -18,3 +18,5 @@ end
 
 cat1 = Cat.new("Zech")
 puts cat1.name
+
+cat1.name = "Anna"
