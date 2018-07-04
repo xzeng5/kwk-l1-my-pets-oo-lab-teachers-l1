@@ -12,8 +12,8 @@ class Owner
     "I am a #{@species}."
   end
 
-  def buy_fish
-    @pets[:fishes] = "name"
+  def buy_fish(name)
+    @pets[:fishes] << "name"
   end
 
  end
