@@ -3,12 +3,12 @@ class Owner
   attr_reader :name, :mood
   
   def initialize (name, mood = "nervous")
-    @name = name 
+    @name = name
     @mood = mood
   end
 
   def mood= (mood)
     @mood = mood
   end
-  
+
  end
