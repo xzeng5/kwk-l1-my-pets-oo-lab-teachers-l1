@@ -1,13 +1,13 @@
 class Owner
   # code goes here
-  attr_reader :species, :mood
+  attr_reader :species
 
   def initialize (species)
     @species = species
   end
 
-  def mood= (mood)
-    @mood = mood
+  def say_species
+    
   end
 
  end
