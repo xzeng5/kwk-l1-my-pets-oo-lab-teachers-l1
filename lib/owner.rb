@@ -24,4 +24,7 @@ class Owner
     @pets[:dogs] << "#{name}"
   end
 
+  def list_pets
+    "I have #{@pets[:fishes].count} fish, #{@pets[:dogs]}.count dog(s), and 1 #{@pets[:cats].count} cat(s)."
+
  end
